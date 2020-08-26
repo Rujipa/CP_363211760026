@@ -1,6 +1,6 @@
 package Lab3;
 public class Example_For {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         //พิมพ์ข้อความ "Hello" 10 ครั้ง
         for (int i = 0; i < 10; i++) {
             System.out.println("Hello");
@@ -21,3 +21,5 @@ public class Example_For {
             }
         }
     }
+
+}
