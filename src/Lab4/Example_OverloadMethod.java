@@ -8,10 +8,15 @@ public class Example_OverloadMethod {
         //else
         //  return y;
     }
-    public static double finMax(double x, double y){
+    public static double findMax(double x, double y){
         return (x>y)? x:y;
     }
     public static void main(String[] args) {
+        int max =findMax(5,10);
+        System.out.println("Maximum is"+max);
+        double max2 = findMax(5.0,10.0);
+        System.out.println("Maximum(2) is"+max2);
+
 
     }//main
 }
