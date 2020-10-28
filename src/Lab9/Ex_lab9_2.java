@@ -32,6 +32,9 @@ public class Ex_lab9_2 {
             writer.write("5+5=10");
             writer.newLine();
             writer.close();
-        } catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+}
+
